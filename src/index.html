@@ -3,12 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.3/simple-lightbox.min.css"
+    integrity="sha512-moe+oG7IXFdP2RtdYj/6jR71QHaAAtMJ6duaxkoVOspUyzFIFSozX1+dQmpf1DHD7NzkyHzEPBB1Zs3joDt4QQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
     <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
+    <!-- <link rel="stylesheet" href="./sass/index.scss" /> -->
+     <link rel="stylesheet" href="/src/styles.css">
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <!-- <include src="./partials/example.html"></include> -->
+      <div>
+      <form class="search-form" id="search-form">
+        <input
+          type="text"
+          name="searchQuery"
+          autocomplete="off"
+          placeholder="Search images..."
+        />
+        <button type="submit">Search</button>
+      </form>
+      </div>
+      <div class="section-1">
+        <div class="gallery"></div>
+        <button type="button" class="load-more">Load more</button>
+      </div>
   </body>
 </html>

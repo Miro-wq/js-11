@@ -21,6 +21,7 @@ function gallerySetup(images) {
     gallery.insertAdjacentHTML('beforeend', markup);
 }
 
+
 ////////////////////////////////DRAFTS////////////////////////////////////////////////////
 
 // webformatURL - un link către imaginea mică.

@@ -21,6 +21,7 @@ async function getImages(query, page, perPage) {
     return response;
 }
 
+
 //////////////////////////////////DRAFTS/////////////////////////////////////////
 
 // key - cheia dvs. unică de acces la API.

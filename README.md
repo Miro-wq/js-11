@@ -1,14 +1,9 @@
-# ✨ C.R.U.D. ✨
+# C.R.U.D.
 
-## 🛠 Tools used
+## Description 
+The project is a feature-rich image search application that integrates with the Pixabay API to deliver stunning results. It showcases advanced JavaScript concepts, API interaction, and user interface enhancements.
 
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,)](https://skillicons.dev)
-
-![Description](https://img.shields.io/badge/Description-purple?style=for-the-badge)
->The project is a feature-rich image search application that integrates with the Pixabay API to deliver stunning results. It showcases advanced JavaScript concepts, API interaction, and user interface enhancements.
->
-
-![Features](https://img.shields.io/badge/Features-purple?style=for-the-badge)
+## Features 
 
 - **Pixabay API Integration:** Fetches high-quality images based on user queries.
 - **Infinite Scroll:** Loads additional images automatically as the user scrolls down.
@@ -16,18 +11,18 @@
 - **Modern Design:** User-friendly interface with responsive behavior.
 - **Error Handling:** Displays proper messages for empty or invalid queries.
 
-![Technologies Used](https://img.shields.io/badge/Technologies%20Used-purple?style=for-the-badge)
+## Technologies Used 
 
 - **HTML, CSS:** Structure and styling for a polished look.
 - **JavaScript:** Core logic for search, pagination, and event handling.
 - **Axios:** For seamless API requests.
 - **SimpleLightbox:** Enhances the viewing experience with a lightbox effect.
 
-![Image search](https://img.shields.io/badge/Image%20search-purple?style=for-the-badge)
+## Image search 
 
 Build a front-end part of a keyword search and image viewer application. Add some decoration to the interface elements.
 
-![Search form](https://img.shields.io/badge/Search%20form-purple?style=for-the-badge)
+## Search form 
 
 The form is originally in the HTML document. The user will enter a search string in the text field, and when submitting the form, an HTTP request must be made.
 
@@ -42,7 +37,7 @@ The form is originally in the HTML document. The user will enter a search string
   <button type="submit">Search</button>
 </form>
 ```
-![HTTP requests](https://img.shields.io/badge/HTTP%20requests-purple?style=for-the-badge)
+## HTTP requests 
 
 Use the public API of the Pixabay service as a back-end. Sign up, get your unique access key and read the documentation.
 
@@ -66,7 +61,7 @@ The response will contain an array of images that meet the request parameters. E
 
 If the back-end returns an empty array, then there are no matches. In this case, show a notification with the text `"Sorry, there are no images matching your search query. Please try again."`. For notifications, use this library: notiflix.
 
-![Gallery and image card](https://img.shields.io/badge/Gallery%20and%20image%20card-purple?style=for-the-badge)
+## Gallery and image card 
 
 The `div.gallery` element is originally in the HTML document, and the markup of the image cards needs to be rendered into it. When searching with a new keyword, you should completely clear the gallery content to avoid confusing results.
 
@@ -97,7 +92,7 @@ Single image card markup template for the gallery.
 </div>
 ```
 
-![Pagination](https://img.shields.io/badge/Pagination-purple?style=for-the-badge)
+## Pagination 
 
 Pixabay API supports pagination and provides the `page` and `per_page` parameters. Make it so that each response contains 40 objects (20 by default).
 
@@ -119,11 +114,11 @@ In response, the back-end returns the `totalHits` property - the total number of
 > [!NOTE]  
 > The following features are optional, but they will be a good additional practice.
 
-![Notification](https://img.shields.io/badge/Notification-purple?style=for-the-badge)
+## Notification 
 
 After the first request, for each new search, display a notification with the number of images found in total `totalHits property`. Notification text: `"Hooray! We found totalHits images."`
 
-![SimpleLightbox library](https://img.shields.io/badge/SimpleLightbox%20library-purple?style=for-the-badge)
+## SimpleLightbox library 
 
 Add the display of large images with the `SimpleLightbox` library for a full gallery.
 
@@ -139,7 +134,7 @@ import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 ```
 
-![Page scrolling](https://img.shields.io/badge/Page%20scrolling-purple?style=for-the-badge)
+## Page scrolling 
 
 Make smooth page scrolling after the request and rendering each next group of images. Here is a hint code for you. Figure it out for yourself.
 
